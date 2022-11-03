@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fastudy/static/css/main.9521b7bd.css",
+    "main.js": "/fastudy/static/js/main.487edc7a.js",
+    "static/media/Montserrat-Bold.ttf": "/fastudy/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-Light.ttf": "/fastudy/static/media/Montserrat-Light.02afb26fe72fcc052988.ttf",
+    "static/media/Nexa-Bold.otf": "/fastudy/static/media/Nexa-Bold.c2b99812f7617bd31a22.otf",
+    "index.html": "/fastudy/index.html",
+    "main.9521b7bd.css.map": "/fastudy/static/css/main.9521b7bd.css.map",
+    "main.487edc7a.js.map": "/fastudy/static/js/main.487edc7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9521b7bd.css",
+    "static/js/main.487edc7a.js"
+  ]
+}

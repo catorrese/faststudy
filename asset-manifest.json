@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/fastudy/static/css/main.9521b7bd.css",
-    "main.js": "/fastudy/static/js/main.487edc7a.js",
-    "static/media/Montserrat-Bold.ttf": "/fastudy/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
-    "static/media/Montserrat-Light.ttf": "/fastudy/static/media/Montserrat-Light.02afb26fe72fcc052988.ttf",
-    "static/media/Nexa-Bold.otf": "/fastudy/static/media/Nexa-Bold.c2b99812f7617bd31a22.otf",
+    "main.css": "/fastudy/static/css/main.044cb57a.chunk.css",
+    "main.js": "/fastudy/static/js/main.f4b65e8b.chunk.js",
+    "main.js.map": "/fastudy/static/js/main.f4b65e8b.chunk.js.map",
+    "runtime-main.js": "/fastudy/static/js/runtime-main.18cac4ea.js",
+    "runtime-main.js.map": "/fastudy/static/js/runtime-main.18cac4ea.js.map",
+    "static/js/2.2e221367.chunk.js": "/fastudy/static/js/2.2e221367.chunk.js",
+    "static/js/2.2e221367.chunk.js.map": "/fastudy/static/js/2.2e221367.chunk.js.map",
     "index.html": "/fastudy/index.html",
-    "main.9521b7bd.css.map": "/fastudy/static/css/main.9521b7bd.css.map",
-    "main.487edc7a.js.map": "/fastudy/static/js/main.487edc7a.js.map"
+    "static/css/main.044cb57a.chunk.css.map": "/fastudy/static/css/main.044cb57a.chunk.css.map",
+    "static/js/2.2e221367.chunk.js.LICENSE.txt": "/fastudy/static/js/2.2e221367.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/fastudy/static/media/Nexa-Bold.c2b99812.otf"
   },
   "entrypoints": [
-    "static/css/main.9521b7bd.css",
-    "static/js/main.487edc7a.js"
+    "static/js/runtime-main.18cac4ea.js",
+    "static/js/2.2e221367.chunk.js",
+    "static/css/main.044cb57a.chunk.css",
+    "static/js/main.f4b65e8b.chunk.js"
   ]
 }

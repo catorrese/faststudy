@@ -20,6 +20,7 @@ import Login from "./Login";
 import Profile from "./Profile";
 import MyNotes from "./MyNotes";
 import SearchNotes from "./SearchNotes";
+import logo from './images/logo.png'
 
 const Dashboard = ({ userInfo, triggerSessionValidation }) => {
   let drawerWidth = 240;
@@ -67,6 +68,7 @@ const Dashboard = ({ userInfo, triggerSessionValidation }) => {
         sx={{
           zIndex: (theme) => theme.zIndex.drawer + 1,
           backgroundColor: "#E14D2A",
+          paddingTop:'0.5em'
         }}
       >
         <Toolbar sx={{ justifyContent: "space-between" }}>
@@ -79,12 +81,13 @@ const Dashboard = ({ userInfo, triggerSessionValidation }) => {
           >
             <MenuIcon />
           </IconButton>
-          <div color="inherit">
+          <div color="inherit" >
             <img
-              src={"/images/fastudy-logo.png"}
+              src={logo}
               alt="Logo Fastudy"
               width="180"
               height="auto"
+              style={{borderRadius:'10px'}}
             />
           </div>
         </Toolbar>
@@ -105,7 +108,7 @@ const Dashboard = ({ userInfo, triggerSessionValidation }) => {
           flexShrink: 0,
         }}
       >
-        <div style={{ height: "70px" }} />
+        <div style={{ height: "110px" }} />
 
         <List sx={{ paddingBottom: "200px" }}>
           <ListItem

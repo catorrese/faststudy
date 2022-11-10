@@ -52,7 +52,7 @@ const SearchNotes = () => {
         width: "100%",
         padding: isMobile ? "1em" : "2em 1em",
         borderRadius: "15px",
-        mt: "4em",
+        mt: "5.5em",
       }}
     >
       <Typography

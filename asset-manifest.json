@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/fastudy/static/css/main.044cb57a.chunk.css",
-    "main.js": "/fastudy/static/js/main.082a66ea.chunk.js",
-    "main.js.map": "/fastudy/static/js/main.082a66ea.chunk.js.map",
+    "main.js": "/fastudy/static/js/main.1a18c9fd.chunk.js",
+    "main.js.map": "/fastudy/static/js/main.1a18c9fd.chunk.js.map",
     "runtime-main.js": "/fastudy/static/js/runtime-main.18cac4ea.js",
     "runtime-main.js.map": "/fastudy/static/js/runtime-main.18cac4ea.js.map",
-    "static/js/2.2e221367.chunk.js": "/fastudy/static/js/2.2e221367.chunk.js",
-    "static/js/2.2e221367.chunk.js.map": "/fastudy/static/js/2.2e221367.chunk.js.map",
+    "static/js/2.a8f356f3.chunk.js": "/fastudy/static/js/2.a8f356f3.chunk.js",
+    "static/js/2.a8f356f3.chunk.js.map": "/fastudy/static/js/2.a8f356f3.chunk.js.map",
     "index.html": "/fastudy/index.html",
     "static/css/main.044cb57a.chunk.css.map": "/fastudy/static/css/main.044cb57a.chunk.css.map",
-    "static/js/2.2e221367.chunk.js.LICENSE.txt": "/fastudy/static/js/2.2e221367.chunk.js.LICENSE.txt",
+    "static/js/2.a8f356f3.chunk.js.LICENSE.txt": "/fastudy/static/js/2.a8f356f3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/fastudy/static/media/Nexa-Bold.c2b99812.otf",
     "static/media/logo.7462b415.png": "/fastudy/static/media/logo.7462b415.png"
   },
   "entrypoints": [
     "static/js/runtime-main.18cac4ea.js",
-    "static/js/2.2e221367.chunk.js",
+    "static/js/2.a8f356f3.chunk.js",
     "static/css/main.044cb57a.chunk.css",
-    "static/js/main.082a66ea.chunk.js"
+    "static/js/main.1a18c9fd.chunk.js"
   ]
 }

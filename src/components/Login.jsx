@@ -9,7 +9,7 @@ import {
   InputAdornment,
 } from "@mui/material";
 import { AccountCircle, Key } from "@mui/icons-material";
-import { getDatabase, ref, child, get } from "firebase/database";
+import { getDatabase, ref, child, get, update } from "firebase/database";
 
 const Login = ({ userInfo, triggerSessionValidation }) => {
   const [login, setLogin] = useState(true);
@@ -28,6 +28,20 @@ const Login = ({ userInfo, triggerSessionValidation }) => {
       return newObject;
     });
   };
+
+  const signUp = () => {
+    if (data["email"] !== "" && data["password"] !== "" && data["name"] !== "" && data["confirm"] !== "" && data["university"] !== "" && data["password"] === data['confirm']){
+      const db = getDatabase();
+      const updates = {};
+        let postData = data;
+        updates["/users/" + postData['email'].replaceAll('.', '-')] = postData;
+        update(ref(db), updates)
+        .then(() => {
+          setLogin(true)
+        })
+        .catch((err) => console.log(err));
+    }
+  }
 
   const ingresar = () => {
     if (data["email"] !== "" && data["password"] !== "") {
@@ -212,7 +226,7 @@ const Login = ({ userInfo, triggerSessionValidation }) => {
             bgcolor: "#E14D2A",
           }}
           onClick={() => {
-            setLogin(!login);
+            signUp();
           }}
           id="logInButton"
         >

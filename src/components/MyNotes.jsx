@@ -99,11 +99,13 @@ const MyNotes = ({ userInfo }) => {
 
   const openNotes = (paths) => {
     const storage = getStorage();
+    var windowReference = window.open();
+
     getDownloadURL(refStorage(storage, "notes/" + paths))
       .then((url) => {
         // `url` is the download URL for 'images/stars.jpg'
 
-        window.open(url);
+        windowReference.location = url;
       })
       .catch((error) => {
         // Handle any errors
